@@ -1,0 +1,66 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ],
+    "LONGBOW": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ],
+    "POLEARM": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ],
+    "SHORTBOW": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ],
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ],
+    "TOOL": [
+      {
+        "binary": false,
+        "effect": "minecraft:efficiency"
+      }
+    ],
+    "TOOL_AXE": [
+      {
+        "binary": false,
+        "effect": "minecraft:efficiency"
+      }
+    ],
+    "WAR_AXE": [
+      {
+        "binary": false,
+        "effect": "onelife:swift_strike"
+      }
+    ]
+  },
+  "id": "onelife:silk_wrap"
+}

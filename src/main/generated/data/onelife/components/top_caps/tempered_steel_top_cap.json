@@ -1,0 +1,12 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "minecraft:sharpness"
+      }
+    ]
+  },
+  "id": "onelife:tempered_steel_top_cap"
+}

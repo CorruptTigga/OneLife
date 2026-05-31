@@ -1,0 +1,30 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "minecraft:sharpness"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "minecraft:sharpness"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "minecraft:sharpness"
+      }
+    ],
+    "POLEARM": [
+      {
+        "binary": false,
+        "effect": "minecraft:sharpness"
+      }
+    ]
+  },
+  "id": "onelife:bronze_hilt"
+}

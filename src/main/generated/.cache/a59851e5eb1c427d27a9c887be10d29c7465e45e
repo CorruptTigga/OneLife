@@ -1,0 +1,14 @@
+// 1.21.4	-999999999-01-01T00:00:00	OneLife/Tags for minecraft:block
+30c95b2725981ff351e9b6f6a71b3bcde8e6b16b data/onelife/tags/block/incorrect_for_bronze_tool.json
+93b6235c77bd54cc9b94ae4b8a0100cf9bec3d03 data/onelife/tags/block/incorrect_for_copper_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/block/incorrect_for_damascus_tool.json
+ef2138ffe08cc36c67d68a071531ab806d98187e data/onelife/tags/block/incorrect_for_flint_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/block/incorrect_for_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/block/incorrect_for_steel_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/block/incorrect_for_tempered_steel_tool.json
+cd84bece3bedc88d7979e2e534464e7b6c9592be data/onelife/tags/block/incorrect_for_wood_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/block/incorrect_for_wrought_iron_tool.json
+26e0967e90ea2b1e97348755154c102384a93cf0 data/onelife/tags/block/needs_bronze_tool.json
+ae5d19315899feb4e32cf477e0e56bda6d298500 data/onelife/tags/block/needs_copper_tool.json
+e36458f87e58ab9d51fcf42d7fc33095118fd5af data/onelife/tags/block/needs_flint_tool.json
+5b24652f31d8194e51e6f2c52460bc126212d410 data/onelife/tags/block/needs_iron_tool.json

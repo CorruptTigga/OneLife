@@ -1,0 +1,66 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "LONGBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "POLEARM": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "SHORTBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "TOOL": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "TOOL_AXE": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ],
+    "WAR_AXE": [
+      {
+        "binary": false,
+        "effect": "minecraft:unbreaking"
+      }
+    ]
+  },
+  "id": "onelife:spruce_handle"
+}

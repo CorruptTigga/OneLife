@@ -1,0 +1,24 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "minecraft:knockback"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "minecraft:knockback"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "minecraft:knockback"
+      }
+    ]
+  },
+  "id": "onelife:wrought_iron_pommel"
+}

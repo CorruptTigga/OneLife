@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#onelife:needs_flint_tool",
+    "#onelife:needs_copper_tool",
+    "#onelife:needs_bronze_tool",
+    "#onelife:needs_iron_tool"
+  ]
+}

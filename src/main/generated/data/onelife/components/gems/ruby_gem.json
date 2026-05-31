@@ -1,0 +1,60 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "minecraft:fire_aspect"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "minecraft:fire_aspect"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "minecraft:fire_aspect"
+      }
+    ],
+    "LONGBOW": [
+      {
+        "binary": true,
+        "effect": "minecraft:flame"
+      }
+    ],
+    "POLEARM": [
+      {
+        "binary": false,
+        "effect": "minecraft:fire_aspect"
+      }
+    ],
+    "SHORTBOW": [
+      {
+        "binary": true,
+        "effect": "minecraft:flame"
+      }
+    ],
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "minecraft:fire_aspect"
+      }
+    ],
+    "TOOL": [
+      {
+        "binary": true,
+        "effect": "minecraft:smelting"
+      }
+    ],
+    "WAR_AXE": [
+      {
+        "binary": false,
+        "effect": "minecraft:fire_aspect"
+      }
+    ]
+  },
+  "id": "onelife:ruby_gem"
+}

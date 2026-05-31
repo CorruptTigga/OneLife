@@ -1,0 +1,60 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "minecraft:smite"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "minecraft:smite"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "minecraft:smite"
+      }
+    ],
+    "LONGBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:power"
+      }
+    ],
+    "POLEARM": [
+      {
+        "binary": false,
+        "effect": "minecraft:smite"
+      }
+    ],
+    "SHORTBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:power"
+      }
+    ],
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "minecraft:smite"
+      }
+    ],
+    "TOOL": [
+      {
+        "binary": false,
+        "effect": "minecraft:efficiency"
+      }
+    ],
+    "WAR_AXE": [
+      {
+        "binary": false,
+        "effect": "minecraft:smite"
+      }
+    ]
+  },
+  "id": "onelife:quartz_gem"
+}

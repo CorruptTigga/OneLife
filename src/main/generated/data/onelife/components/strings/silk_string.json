@@ -1,0 +1,18 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "LONGBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:punch"
+      }
+    ],
+    "SHORTBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:punch"
+      }
+    ]
+  },
+  "id": "onelife:silk_string"
+}

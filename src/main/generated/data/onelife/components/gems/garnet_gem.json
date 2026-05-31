@@ -1,0 +1,60 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "minecraft:bane_of_arthropods"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "minecraft:bane_of_arthropods"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "minecraft:bane_of_arthropods"
+      }
+    ],
+    "LONGBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:power"
+      }
+    ],
+    "POLEARM": [
+      {
+        "binary": false,
+        "effect": "minecraft:bane_of_arthropods"
+      }
+    ],
+    "SHORTBOW": [
+      {
+        "binary": false,
+        "effect": "minecraft:power"
+      }
+    ],
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "minecraft:bane_of_arthropods"
+      }
+    ],
+    "TOOL": [
+      {
+        "binary": false,
+        "effect": "minecraft:fortune"
+      }
+    ],
+    "WAR_AXE": [
+      {
+        "binary": false,
+        "effect": "minecraft:bane_of_arthropods"
+      }
+    ]
+  },
+  "id": "onelife:garnet_gem"
+}

@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.doitbetter.onelife.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"dimension.MixinNetherPortal",
+		"dimension.MixinPortalForcer",
+		"recipes.MixinServerRecipeManager"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

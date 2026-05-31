@@ -1,0 +1,60 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "BLADE_DAGGER": [
+      {
+        "binary": false,
+        "effect": "minecraft:looting"
+      }
+    ],
+    "BLADE_SWORD": [
+      {
+        "binary": false,
+        "effect": "minecraft:looting"
+      }
+    ],
+    "BLUNT": [
+      {
+        "binary": false,
+        "effect": "minecraft:looting"
+      }
+    ],
+    "LONGBOW": [
+      {
+        "binary": true,
+        "effect": "minecraft:infinity"
+      }
+    ],
+    "POLEARM": [
+      {
+        "binary": false,
+        "effect": "minecraft:looting"
+      }
+    ],
+    "SHORTBOW": [
+      {
+        "binary": true,
+        "effect": "minecraft:infinity"
+      }
+    ],
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "minecraft:looting"
+      }
+    ],
+    "TOOL": [
+      {
+        "binary": true,
+        "effect": "minecraft:silk_touch"
+      }
+    ],
+    "WAR_AXE": [
+      {
+        "binary": false,
+        "effect": "minecraft:looting"
+      }
+    ]
+  },
+  "id": "onelife:onyx_gem"
+}

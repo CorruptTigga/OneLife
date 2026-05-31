@@ -1,0 +1,12 @@
+{
+  "component_durability": 0,
+  "effects_by_family": {
+    "STAFF": [
+      {
+        "binary": false,
+        "effect": "minecraft:knockback"
+      }
+    ]
+  },
+  "id": "onelife:damascus_bottom_cap"
+}
