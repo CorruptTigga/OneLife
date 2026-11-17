@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "onelife:item/component/sulfur"
+    "model": "onelife:item/reagents/sulfur"
   }
 }

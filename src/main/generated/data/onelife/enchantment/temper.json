@@ -1,0 +1,34 @@
+{
+  "anvil_cost": 999,
+  "description": {
+    "translate": "enchantment.onelife.temper"
+  },
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.1,
+            "per_level_above_first": -0.1
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 9999,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 999,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#onelife:enchantable/tools",
+  "weight": 1
+}

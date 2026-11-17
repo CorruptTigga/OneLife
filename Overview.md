@@ -101,20 +101,24 @@ Reasons over 1.21.1:
 - [X] <span style="color:green">FamilyItem interface — getWeaponFamily() for renderer and applicator lookup
 - [X] <span style="color:green">Base weapon classes — OneLifeSwordItem, OneLifeDaggerItem, OneLifeWarAxeItem, OneLifeSpearItem, OneLifeHammerItem
 - [X] <span style="color:green">Base tool classes — OneLifePickaxeItem, OneLifeShovelItem, OneLifeHoeItem, OneLifeToolAxeItem
-- [ ] OneLifeWeapons — 45 weapons registered (5 families x 9 tiers)
-- [ ] OneLifeTools — 36 tools registered (4 types x 9 tiers)
-- [ ] Wood stick variants — one per tree type for handle crafting
+- [X] <span style="color:green">OneLifeWeapons — 45 weapons registered (5 families x 9 tiers)
+- [X] <span style="color:green">OneLifeTools — 36 tools registered (4 types x 9 tiers)
+- [X] <span style="color:green">Wood stick variants — one per tree type for handle crafting
 
 ### Phase 6 — Crafting Stations
 *Each profession gets their own block.*
 
-- [ ] Blacksmith's Forge — crafts blank blades, metal hilts, pommels
-- [ ] Binding Table — weapon/tool assembly and component socketing
-- [ ] Tanner's Bench — crafts wraps, leather components
-- [ ] Carpenter's Bench — crafts wooden handles
-- [ ] Jeweler's Table — cuts gems, crafts rings and jewelry
-- [ ] Smelter — Iron to Wrought Iron forging upgrade
-- [ ] Armorer's Stand — armor assembly (mirrors binding table)
+- [ ] Blacksmith's Workbench
+- [ ] Carpenter's Workbench
+- [ ] Tanner's Workbench
+- [ ] Jeweler's Workbench
+- [ ] Armorer's Workbench
+- [ ] Binding Table
+- [ ] Tanner's Assembly Table
+- [ ] Armorer's Assembly Table
+- [ ] Smelter
+- [ ] Forge (upgraded Smelter)
+- [ ] Tanning Rack
 - [ ] All blocks registered with block entities, screen handlers, client screens
 
 ### Phase 7 — Datagen Recipes
