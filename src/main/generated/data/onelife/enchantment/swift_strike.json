@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 999,
+  "description": {
+    "translate": "enchantment.onelife.swift_strike"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "type": "minecraft:attribute",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "attribute": "minecraft:attack_speed",
+        "id": "onelife:swift_strike",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 9999,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 999,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#onelife:enchantable/weapons",
+  "weight": 1
+}

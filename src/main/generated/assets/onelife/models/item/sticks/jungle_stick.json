@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "onelife:item/component/sulfur"
+    "layer0": "onelife:item/sticks/jungle_stick"
   }
 }

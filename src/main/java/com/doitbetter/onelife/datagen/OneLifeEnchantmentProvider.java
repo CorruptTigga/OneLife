@@ -64,7 +64,7 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         JsonObject effects = new JsonObject();
         JsonObject attribute = new JsonObject();
         attribute.addProperty("type", "minecraft:attribute");
-        attribute.addProperty("attribute", "minecraft:generic.attack_speed");
+        attribute.addProperty("attribute", "minecraft:attack_speed");
         attribute.addProperty("operation", "add_value");
         JsonObject amount = new JsonObject();
         amount.addProperty("type", "minecraft:linear");
@@ -95,8 +95,8 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         effect.add("to_apply", toApply);
         effect.add("min_duration", linear(1.0, 0.5));
         effect.add("max_duration", linear(2.0, 0.5));
-        effect.add("min_amplifier", constant(0));
-        effect.add("max_amplifier", constant(0));
+        addConstant(effect, "min_amplifier", 0);
+        addConstant(effect, "max_amplifier", 0);
         entry.add("effect", effect);
         entry.add("requirements", randomChance(0.15));
         postAttack.add(entry);
@@ -169,8 +169,8 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         effect.add("to_apply", toApply);
         effect.add("min_duration", linear(2.0, 1.0));
         effect.add("max_duration", linear(3.0, 1.0));
-        effect.add("min_amplifier", constant(0));
-        effect.add("max_amplifier", linear(0.0, 1.0));
+        addConstant(effect, "min_amplifier", 0.0);
+        addConstant(effect, "max_amplifier", 1.0);
         entry.add("effect", effect);
         postAttack.add(entry);
         effects.add("minecraft:post_attack", postAttack);
@@ -185,10 +185,14 @@ public class OneLifeEnchantmentProvider implements DataProvider {
                 5, 999, 9999
         );
         JsonObject effects = new JsonObject();
-        JsonObject armorEffectiveness = new JsonObject();
-        armorEffectiveness.addProperty("type", "minecraft:add");
-        armorEffectiveness.add("value", linear(-0.1, -0.1));
-        effects.add("minecraft:armor_effectiveness", armorEffectiveness);
+        JsonArray armorArray = new JsonArray();  // wrap in array
+        JsonObject entry = new JsonObject();
+        JsonObject effect = new JsonObject();
+        effect.addProperty("type", "minecraft:add");
+        effect.add("value", linear(-0.1, -0.1));
+        entry.add("effect", effect);
+        armorArray.add(entry);
+        effects.add("minecraft:armor_effectiveness", armorArray);  // array not object
         json.add("effects", effects);
         return json;
     }
@@ -209,8 +213,8 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         effect.add("to_apply", toApply);
         effect.add("min_duration", linear(2.0, 1.0));
         effect.add("max_duration", linear(3.0, 1.0));
-        effect.add("min_amplifier", constant(0));
-        effect.add("max_amplifier", linear(0.0, 1.0));
+        addConstant(effect, "min_amplifier", 0);
+        addConstant(effect, "max_amplifier", 1.0);
         entry.add("effect", effect);
         entry.add("requirements", randomChance(0.2));
         postAttack.add(entry);
@@ -236,8 +240,8 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         effect.add("to_apply", toApply);
         effect.add("min_duration", linear(1.0, 0.5));
         effect.add("max_duration", linear(2.0, 0.5));
-        effect.add("min_amplifier", constant(4));
-        effect.add("max_amplifier", constant(4));
+        addConstant(effect, "min_amplifier", 4);
+        addConstant(effect, "max_amplifier", 4);
         entry.add("effect", effect);
         entry.add("requirements", randomChance(0.1));
         postAttack.add(entry);
@@ -257,10 +261,14 @@ public class OneLifeEnchantmentProvider implements DataProvider {
                 5, 999, 9999
         );
         JsonObject effects = new JsonObject();
-        JsonObject itemDamage = new JsonObject();
-        itemDamage.addProperty("type", "minecraft:add");
-        itemDamage.add("value", linear(-0.1, -0.1));
-        effects.add("minecraft:item_damage", itemDamage);
+        JsonArray damageArray = new JsonArray();  // wrap in array
+        JsonObject entry = new JsonObject();
+        JsonObject effect = new JsonObject();
+        effect.addProperty("type", "minecraft:add");
+        effect.add("value", linear(-0.1, -0.1));
+        entry.add("effect", effect);
+        damageArray.add(entry);
+        effects.add("minecraft:item_damage", damageArray);  // array not object
         json.add("effects", effects);
         return json;
     }
@@ -274,7 +282,7 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         JsonObject effects = new JsonObject();
         JsonObject attribute = new JsonObject();
         attribute.addProperty("type", "minecraft:attribute");
-        attribute.addProperty("attribute", "minecraft:player.block_break_speed");
+        attribute.addProperty("attribute", "minecraft:block_break_speed");
         attribute.addProperty("operation", "add_value");
         attribute.add("amount", linear(0.5, 0.5));
         attribute.addProperty("id", "onelife:hone");
@@ -324,8 +332,8 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         effect.add("to_apply", toApply);
         effect.add("min_duration", linear(5.0, 3.0));
         effect.add("max_duration", linear(8.0, 3.0));
-        effect.add("min_amplifier", constant(0));
-        effect.add("max_amplifier", constant(0));
+        addConstant(effect, "min_amplifier", 0);
+        addConstant(effect, "max_amplifier", 0);
         entry.add("effect", effect);
         postAttack.add(entry);
         effects.add("minecraft:post_attack", postAttack);
@@ -404,11 +412,8 @@ public class OneLifeEnchantmentProvider implements DataProvider {
         return obj;
     }
 
-    private JsonObject constant(double value) {
-        JsonObject obj = new JsonObject();
-        obj.addProperty("type", "minecraft:constant");
-        obj.addProperty("value", value);
-        return obj;
+    private void addConstant(JsonObject parent, String key, double value) {
+        parent.addProperty(key, value);
     }
 
     private JsonObject randomChance(double chance) {

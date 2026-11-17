@@ -13,7 +13,15 @@ import java.util.function.Function;
 public class OneLifeItems {
 
     public static final Item ACACIA_STICK = registerItem("acacia_stick", Item::new, new Item.Settings());
+    public static final Item BAMBOO_STICK = registerItem("bamboo_stick", Item::new, new Item.Settings());
+    public static final Item BIRCH_STICK = registerItem("birch_stick", Item::new, new Item.Settings());
+    public static final Item CHERRY_STICK = registerItem("cherry_stick", Item::new, new Item.Settings());
+    public static final Item DARK_OAK_STICK = registerItem("dark_oak_stick", Item::new, new Item.Settings());
+    public static final Item JUNGLE_STICK = registerItem("jungle_stick", Item::new, new Item.Settings());
+    public static final Item MANGROVE_STICK = registerItem("mangrove_stick", Item::new, new Item.Settings());
     public static final Item OAK_STICK = registerItem("oak_stick", Item::new, new Item.Settings());
+    public static final Item PALE_OAK_STICK = registerItem("pale_oak_stick", Item::new, new Item.Settings());
+    public static final Item SPRUCE_STICK = registerItem("spruce_stick", Item::new, new Item.Settings());
 
     // =========================================================================
     // SULFUR
@@ -33,18 +41,18 @@ public class OneLifeItems {
     // =========================================================================
     // INGOTS
     // =========================================================================
-    public static final Item TIN_INGOT = registerItem("tin_ingot", Item::new, new Item.Settings());
-    public static final Item SILVER_INGOT = registerItem("silver_ingot", Item::new, new Item.Settings());
-    public static final Item ZINC_INGOT = registerItem("zinc_ingot", Item::new, new Item.Settings());
+    public static final Item BRASS_INGOT = registerItem("brass_ingot", Item::new, new Item.Settings());
+    public static final Item BRONZE_INGOT = registerItem("bronze_ingot", Item::new, new Item.Settings());
+    public static final Item DAMASCUS_INGOT = registerItem("damascus_ingot", Item::new, new Item.Settings());
     public static final Item LEAD_INGOT = registerItem("lead_ingot", Item::new, new Item.Settings());
     public static final Item NICKEL_INGOT = registerItem("nickel_ingot", Item::new, new Item.Settings());
     public static final Item PLATINUM_INGOT = registerItem("platinum_ingot", Item::new, new Item.Settings());
-    public static final Item BRONZE_INGOT = registerItem("bronze_ingot", Item::new, new Item.Settings());
-    public static final Item BRASS_INGOT = registerItem("brass_ingot", Item::new, new Item.Settings());
-    public static final Item WROUGHT_IRON_INGOT = registerItem("wrought_iron_ingot", Item::new, new Item.Settings());
+    public static final Item SILVER_INGOT = registerItem("silver_ingot", Item::new, new Item.Settings());
     public static final Item STEEL_INGOT = registerItem("steel_ingot", Item::new, new Item.Settings());
-    public static final Item DAMASCUS_INGOT = registerItem("damascus_ingot", Item::new, new Item.Settings());
     public static final Item TEMPERED_STEEL_INGOT = registerItem("tempered_steel_ingot", Item::new, new Item.Settings());
+    public static final Item TIN_INGOT = registerItem("tin_ingot", Item::new, new Item.Settings());
+    public static final Item WROUGHT_IRON_INGOT = registerItem("wrought_iron_ingot", Item::new, new Item.Settings());
+    public static final Item ZINC_INGOT = registerItem("zinc_ingot", Item::new, new Item.Settings());
 
     // =========================================================================
     // COINS

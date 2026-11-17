@@ -1,0 +1,46 @@
+{
+  "anvil_cost": 999,
+  "description": {
+    "translate": "enchantment.onelife.tracking"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "max_amplifier": 0.0,
+          "max_duration": {
+            "type": "minecraft:linear",
+            "base": 8.0,
+            "per_level_above_first": 3.0
+          },
+          "min_amplifier": 0.0,
+          "min_duration": {
+            "type": "minecraft:linear",
+            "base": 5.0,
+            "per_level_above_first": 3.0
+          },
+          "to_apply": [
+            "minecraft:glowing"
+          ]
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 9999,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 999,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#onelife:enchantable/bows",
+  "weight": 1
+}

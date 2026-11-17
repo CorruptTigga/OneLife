@@ -1,3 +1,15 @@
 // 1.21.4	-999999999-01-01T00:00:00	OneLife/Tags for minecraft:item
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/item/enchantable/armor.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/item/enchantable/bows.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/item/enchantable/staffs.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/item/enchantable/tools.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/item/enchantable/weapons.json
+57e36bbfa6f4b70f7b4dcd2415810cc857fea7d1 data/onelife/tags/item/repairs_bronze_tool.json
+6222fd0d7d2ce08ee1f70be68a61f4e167dda650 data/onelife/tags/item/repairs_copper_tool.json
+65f07becbde6ef138e642eda7d3454083cdc0e86 data/onelife/tags/item/repairs_damascus_tool.json
 4333e5b0d3c082c5e91baec1955d1a9d418dc318 data/onelife/tags/item/repairs_flint_tool.json
+736f4ef35696340b932cdb679c5a32e7b28db783 data/onelife/tags/item/repairs_iron_tool.json
+b5ce45c9849e672614cc81f7858117672d0827af data/onelife/tags/item/repairs_steel_tool.json
+d9cd91837d38bac3d11e7a54ceec089df58ceb5c data/onelife/tags/item/repairs_tempered_steel_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/onelife/tags/item/repairs_wood_tool.json
+5f523a6652e00623de0fa1b56dddd7cc339cfd5b data/onelife/tags/item/repairs_wrought_iron_tool.json

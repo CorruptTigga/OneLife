@@ -32,6 +32,15 @@ public class OneLifeItemTags {
     public static final TagKey<Item> REPAIRS_DAMASCUS_TOOL = of("repairs_damascus_tool");
     public static final TagKey<Item> REPAIRS_TEMPERED_STEEL_TOOL = of("repairs_tempered_steel_tool");
 
+    // =========================================================================
+    // ENCHANTABLE TAGS — populated in Phase 5 once items are registered
+    // =========================================================================
+    public static final TagKey<Item> ENCHANTABLE_WEAPONS = of("enchantable/weapons");
+    public static final TagKey<Item> ENCHANTABLE_TOOLS = of("enchantable/tools");
+    public static final TagKey<Item> ENCHANTABLE_BOWS = of("enchantable/bows");
+    public static final TagKey<Item> ENCHANTABLE_STAFFS = of("enchantable/staffs");
+    public static final TagKey<Item> ENCHANTABLE_ARMOR = of("enchantable/armor");
+
     private static TagKey<Item> of(String path) {
         return TagKey.of(RegistryKeys.ITEM, Identifier.of(OneLife.MOD_ID, path));
     }

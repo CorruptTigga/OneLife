@@ -1,12 +1,14 @@
 package com.doitbetter.onelife.datagen.lang;
 
 import com.doitbetter.onelife.OneLife;
+import com.doitbetter.onelife.item.OneLifeItemGroups;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.Arrays;
 import java.util.concurrent.CompletableFuture;
@@ -21,6 +23,13 @@ public class OneLifeEnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         // We pass the string prefix ("item" or "block") to generate clean translation keys
+        translationBuilder.add(OneLifeItemGroups.BUILDING_BLOCKS_GROUP_IDENTIFIER, "Building Blocks");
+        translationBuilder.add(OneLifeItemGroups.FUNCTIONAL_BLOCKS_GROUP_IDENTIFIER, "Functional Blocks");
+        translationBuilder.add(OneLifeItemGroups.TOOLS_GROUP_IDENTIFIER, "Tools & Utilities");
+        translationBuilder.add(OneLifeItemGroups.COMBAT_GROUP_IDENTIFIER, "Combat");
+        translationBuilder.add(OneLifeItemGroups.FOOD_GROUP_IDENTIFIER, "Food & Drink");
+        translationBuilder.add(OneLifeItemGroups.INGREDIENTS_GROUP_IDENTIFIER, "Ingredients");
+
         autoTranslate(registryLookup, translationBuilder, RegistryKeys.ITEM, "item");
         autoTranslate(registryLookup, translationBuilder, RegistryKeys.BLOCK, "block");
     }

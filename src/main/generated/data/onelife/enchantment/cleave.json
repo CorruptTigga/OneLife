@@ -1,0 +1,46 @@
+{
+  "anvil_cost": 999,
+  "description": {
+    "translate": "enchantment.onelife.cleave"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "block_interaction": "none",
+          "create_fire": false,
+          "large_particle": {
+            "type": "minecraft:sweep_attack"
+          },
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 1.5,
+            "per_level_above_first": 0.5
+          },
+          "small_particle": {
+            "type": "minecraft:sweep_attack"
+          },
+          "sound": "minecraft:enchant.thorns.hit"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 9999,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 999,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#onelife:enchantable/weapons",
+  "weight": 1
+}
